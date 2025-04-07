@@ -39,7 +39,7 @@ This application uses a Flask backend to handle AWS credentials securely. AWS cr
 1. Clone this repository or download the files:
 
 ```bash
-git clone https://github.com/yourusername/cloud-file-manager.git
+git clone https://github.com/swapnikakommina/cloud-file-manager.git
 cd cloud-file-manager
 ```
 
