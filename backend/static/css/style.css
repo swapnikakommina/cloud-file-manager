@@ -1,0 +1,92 @@
+/* Main styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    min-height: 100vh;
+    border-right: 1px solid #dee2e6;
+}
+
+/* File type icons */
+.file-icon {
+    margin-right: 8px;
+}
+
+.folder-icon {
+    color: #ffc107;
+}
+
+.file-icon-generic {
+    color: #6c757d;
+}
+
+.file-icon-image {
+    color: #28a745;
+}
+
+.file-icon-document {
+    color: #007bff;
+}
+
+.file-icon-pdf {
+    color: #dc3545;
+}
+
+/* File/folder row styling */
+.file-row, .folder-row {
+    cursor: pointer;
+}
+
+.folder-row:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Breadcrumb styling */
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+/* Dropzone for drag & drop */
+.dropzone {
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.05);
+    padding: 20px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.dropzone.highlight {
+    background-color: rgba(0, 123, 255, 0.1);
+    border-color: #0056b3;
+}
+
+/* Actions buttons */
+.action-btn {
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+/* Toast notifications */
+.toast {
+    min-width: 250px;
+}
+
+/* Upload progress bar */
+.upload-progress {
+    margin-top: 10px;
+}
+
+/* Add empty folder message */
+.empty-folder-message {
+    text-align: center;
+    padding: 40px;
+    color: #6c757d;
+}
